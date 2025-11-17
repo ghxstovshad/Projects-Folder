@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-image: url(./images/form-bgi.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section img{
+    width: 70px;
+}
+
+.photo-credit {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
