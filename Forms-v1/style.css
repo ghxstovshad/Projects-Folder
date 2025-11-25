@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-image: url(./images/form-bgi.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.logo-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section img{
+    width: 70px;
+}
+
+.photo-credit {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-section {
+  background-color: #f9fafb;
+  padding: 40px 60px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 3;
+}
+
+.form-section > p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+form {
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row > div {
+    flex: 1;
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 8px 4px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#last-name:valid{
+    outline: 2px solid rgb(111, 111, 243);
+}
+
+input[type="password"]:valid {
+    outline: 1px solid green;
+}
+
+input[type="password"]:invalid {
+    outline: 0.5px solid red;
+}
+
+input[type="confirm-password"]:valid{
+    outline: 1px solid green;
+}
+
+input[type="confirm-password"]:invalid{
+    outline: 0.5px solid red;
+}
+
+.log-in a{
+    color: #596D48;
+}
